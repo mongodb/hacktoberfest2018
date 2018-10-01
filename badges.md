@@ -1,9 +1,13 @@
 # MongoDB Stitch Badges
 ## What is a badge?
 
-[![Powered by Stitch](http://badge.learnstitch.com/?appid=stitch-badges-dkhza)(http://cloud.mongodb.com)
+ Badges are used to communicate to potential users of your application as they review your project.
 
-##Incorporating a Stitch Badge
+Here's an example.
+
+[![Powered by Stitch](http://badge.learnstitch.com/?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
+
+## Incorporating a Stitch Badge
 
 Note the badges incorporated in the [README](https://github.com/mongodb/hacktoberfest2018/blob/master/README.md").
 
