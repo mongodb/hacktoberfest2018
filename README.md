@@ -26,4 +26,5 @@ Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/
 | [![MrLynn](https://avatars2.githubusercontent.com/u/192552?s=50&v=4)](http://twitter.com/merlynn) |  [hacktoberfest2018](http://github.com/mongodb/hacktoberfest2018)| MongoDB Hackathon Repository with a working Stitch app. This app is actually a service that will return the stitch badge that you see above.|  [Badge](http://badge.learnstitch.com) |
 
 ## Resources
-
+[Stich Docs](https://docs.mongodb.com/stitch/)
+[Stich Docs](https://docs.mongodb.com/stitch/)
