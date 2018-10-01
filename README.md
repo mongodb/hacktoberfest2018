@@ -28,4 +28,4 @@ Badges are created using a call to a MongoDB Stitch app that we wrote specifical
 
 | Project | Repo | Author
 | --- | --- |
-| hacktoberfest2018 | http://github.com/mongodb/hacktoberfest2018 | [![MrLynn](https://avatars1.githubusercontent.com/u/192552?s=400&u=cace293d90a9cc492538232caf9c6c74cdc19676&v=4)](http://twitter.com/merlynn) |
+| hacktoberfest2018 | http://github.com/mongodb/hacktoberfest2018 | [![MrLynn](https://avatars2.githubusercontent.com/u/192552?s=50&v=4)](http://twitter.com/merlynn)|
