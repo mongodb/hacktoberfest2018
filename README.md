@@ -24,6 +24,6 @@ Badges are created using a call to a MongoDB Stitch app that we wrote specifical
 ```
 ### Current Hacktoberfest Entries
 
-| Project Name | Auth | Repo | Description
+| Project Name | Author | Repo | Description
 | --- | --- | --- | --- |
-| hacktoberfest2018 | [hacktoberfest2018](http://github.com/mongodb/hacktoberfest2018) | [![MrLynn](https://avatars2.githubusercontent.com/u/192552?s=50&v=4)](http://twitter.com/merlynn)| MongoDB Hackathon Repository
+| hacktoberfest2018 | [![MrLynn](https://avatars2.githubusercontent.com/u/192552?s=50&v=4)](http://twitter.com/merlynn) |  [hacktoberfest2018](http://github.com/mongodb/hacktoberfest2018)| MongoDB Hackathon Repository |
