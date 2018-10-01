@@ -19,6 +19,8 @@ To add a badge to your repository, obtain your Stitch App ID. You will find the 
 
 ![Stitch App ID](https://i.imgur.com/y6dWV5M.png)
 
+## Craft Your Own MongoDB Stitch Badge
+
 Once you have the App ID, you can craft your own badge using the following syntax:
 
 ```![Powered by Stitch](http://badge.learnstitch.com/?appid=<YOUR APP ID>)(http://cloud.mongodb.com)```
