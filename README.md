@@ -11,14 +11,16 @@ This year, we're celebrating open source software by hosting a challenge for sof
 Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/stitch) as part of the app. Export the source code for the app using the handy export capability from within Stitch. Then, create a README.md file for your project that leverages a [MongoDB Stitch App Badge](./badges.md). Similar to the following examples.
 
 ### Working Stitch App Example
-![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=stitch-badges-dkhza)
-![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=stitch-badges-dkhza)
+[![GitHub issues by-label](https://img.shields.io/github/issues/badges/shields/good%20first%20issue.svg)](https://github.com/badges/shields/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+[![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
+{![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
 
 ### Non-working Stitch App Example
-![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=non-existing-app)
+[![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=non-existing-app)](http://cloud.mongodb.com)
 
 Badges are created using a call to a MongoDB Stitch app that we wrote specifically for Hacktoberfest. You can see the source [here](https://github.com/mrlynn/hacktoberfest/blob/master/stitchapp/services/badgeservice/incoming_webhooks/badge/source.js).  To place a MongoDB Stitch app on your repository, simply create a Stitch App and visit the Getting Started page of your app to find the Stitch App ID. Create an image tag in the markup of your README replacing the <APPID> with your actual App ID:
   
   ```
-  ![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=<APPID>)
+  [![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=<APPID>)](http://cloud.mongodb.com)
 ```
