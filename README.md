@@ -1,4 +1,4 @@
-![Hacktoberfest Header](./stitch-hacktoberfest-header.png)
+![Hacktoberfest Header](./assets/stitch-hacktoberfest-header.png)
 # Welcome to the MongoDB's Hacktoberfest Repository!
 
 ## What is Hacktoberfest?
