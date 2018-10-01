@@ -1,0 +1,9 @@
+{
+    "id": "5bb1db5637793f5441179737",
+    "name": "testvalue",
+    "value": {
+        "name": "test value",
+        "purpose": "this is just a test value to show you you can use values"
+    },
+    "private": false
+}

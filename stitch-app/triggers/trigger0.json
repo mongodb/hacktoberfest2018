@@ -1,0 +1,19 @@
+{
+    "id": "5bb1dbca3e0e0b6065f195be",
+    "name": "trigger0",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "REPLACE"
+        ],
+        "database": "hacktoberfest",
+        "collection": "examples",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "full_document": true
+    },
+    "function_name": "exampleTrigger",
+    "disabled": false
+}

@@ -1,0 +1,28 @@
+{
+    "id": "5bb1db7ae707c0014171e46d",
+    "database": "hacktoberfest",
+    "collection": "examples",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "userid": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "userid": {
+                "bsonType": "string"
+            }
+        }
+    }
+}

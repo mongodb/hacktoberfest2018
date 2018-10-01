@@ -1,0 +1,10 @@
+{
+    "id": "5bb1d8f7b4a5c55fa4d14699",
+    "name": "mongodb-atlas",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "Signin",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}

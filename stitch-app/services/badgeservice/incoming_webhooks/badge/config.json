@@ -1,0 +1,11 @@
+{
+    "id": "5bb1dab937793f5441179532",
+    "name": "badge",
+    "run_as_user_id": "",
+    "run_as_user_id_script_source": "",
+    "options": {
+        "httpMethod": "GET",
+        "validationMethod": "NO_VALIDATION"
+    },
+    "respond_result": true
+}
