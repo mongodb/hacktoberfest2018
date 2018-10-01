@@ -5,7 +5,7 @@
 Hacktoberfest is a month-long celebration of open source software. Started originally by our friends at [Digital Ocean](http://digitalocean.com)
 
 ## How is MongoDB Participating?
-This year, we're celebrating open source software by hosting a challenge for software developers. Innovation and developer of freely available software is an essential part of our ecosystem. This is why we're incenting developers to create interesting projects leveraging [MongoDB Stitch](http://www.mongodb.com/cloud/stitch) and export the apps for storage on a [GitHub](http://github.com) repository.
+This year, we're celebrating open source software by hosting a challenge for software developers. Innovation and development of freely available software is an essential part of our ecosystem. This is why we're incenting developers to create interesting projects leveraging [MongoDB Stitch](http://www.mongodb.com/cloud/stitch) and export the apps for storage on a [GitHub](http://github.com) repository.
 
 ## How can you participate?
 Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/stitch) as part of the app. Export the source code for the app using the handy export capability from within Stitch. Then, create a README.md file for your project that leverages a [MongoDB Stitch App Badge](./badges.md). Similar to the following examples. See the Resources section of this file for more information on learning MongoDB Stitch.
