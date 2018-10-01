@@ -12,7 +12,7 @@ Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/
 
 ### Working Stitch App Example
 [![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
-{![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
+[![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
 
 ### Non-working Stitch App Example
 [![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=non-existing-app)](http://cloud.mongodb.com)
