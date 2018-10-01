@@ -27,3 +27,4 @@ Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/
 
 ## Resources
 [Stich Docs](https://docs.mongodb.com/stitch/)
+[Stich Docs](https://docs.mongodb.com/stitch/)
