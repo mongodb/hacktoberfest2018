@@ -23,4 +23,12 @@ Once you have the App ID, you can craft your own badge using the following synta
 
 ```![Powered by Stitch](http://badge.learnstitch.com/?appid=<YOUR APP ID>)(http://cloud.mongodb.com)```
 
+## Additional Examples
+
+### Working Stitch App Example
+[![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
+
+### Non-working Stitch App Example
+[![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=non-existing-app)](http://cloud.mongodb.com)
+
 Replace *<YOUR APP ID>* with your actual Stitch App ID.

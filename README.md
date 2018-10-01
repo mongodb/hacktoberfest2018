@@ -12,12 +12,6 @@ Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/
 
 ## Include a badge on your Stitch App repository
 
-### Working Stitch App Example
-[![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
-
-### Non-working Stitch App Example
-[![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=non-existing-app)](http://cloud.mongodb.com)
-
 [Badges](./badges.md) are created using a call to a MongoDB Stitch app that we wrote specifically for Hacktoberfest. You can see the source [here](https://github.com/mrlynn/hacktoberfest/blob/master/stitchapp/services/badgeservice/incoming_webhooks/badge/source.js).  
   
 [![Powered by Stitch](http://badge.learnstitch.com?appid=<APPID>)](http://cloud.mongodb.com)
