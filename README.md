@@ -23,6 +23,10 @@ Badges are created using a call to a MongoDB Stitch app that we wrote specifical
 ```
 ### Current Hacktoberfest Entries
 
+> How do I get my project listed here?
+
+> - Simply fork this repo, edit the table below to include your project details, then issue a pull request for changes to the README.md.
+
 | Project Name | Author | Repo | Description
 | --- | --- | --- | --- |
 | hacktoberfest2018 | [![MrLynn](https://avatars2.githubusercontent.com/u/192552?s=50&v=4)](http://twitter.com/merlynn) |  [hacktoberfest2018](http://github.com/mongodb/hacktoberfest2018)| MongoDB Hackathon Repository |
