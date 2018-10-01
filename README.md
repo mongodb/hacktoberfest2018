@@ -24,7 +24,7 @@ Badges are created using a call to a MongoDB Stitch app that we wrote specifical
   [![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=<APPID>)](http://cloud.mongodb.com)
 ```
 ## Current Hacktoberfest Entries
-[comment]: <> (Include YOUR project here, in this table.  Please include Project name, author github user name (or link to pic), Repo Link, and a description of the project )
+<> (Include YOUR project here, in this table.  Please include Project name, author github user name (or link to pic), Repo Link, and a description of the project )
 > How do I get my project listed here?
 > - Simply fork this repo, edit the table below to include your project details, then issue a pull request for changes to the README.md.
 > - Please include Project name, author github user name (or link to pic), Repo Link, and a description of the project 
