@@ -11,7 +11,7 @@ This year, we're celebrating open source software by hosting a challenge for sof
 Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/stitch) as part of the app. Export the source code for the app using the handy export capability from within Stitch. Then, create a README.md file for your project that leverages a [MongoDB Stitch App Badge](./badges.md). Similar to the following examples.
 
 ### Working Stitch App Example
-[![GitHub issues by-label](https://img.shields.io/github/issues/badges/shields/good%20first%20issue.svg)](https://github.com/badges/shields/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+[![GitHub issues by-topic](https://img.shields.io/github/issues/badges/shields/hacktoberfest%20first%20repos.svg)](https://github.com/badges/shields/topics?q=hacktoberfest)
 
 [![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
 {![Powered by Stitch](http://badge.learnstitch.com/index.php?appid=stitch-badges-dkhza)](http://cloud.mongodb.com)
