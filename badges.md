@@ -1,3 +1,4 @@
+![MongoDB Stitch App Badge](./assets/large-badge.svg)
 # MongoDB Stitch Badges
 ## What is a badge?
 
