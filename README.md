@@ -24,3 +24,8 @@ Badges are created using a call to a MongoDB Stitch app that we wrote specifical
   ```
   [![Powered by Stitch](https://webhooks.mongodb-stitch.com/api/client/v2.0/app/stitch-badges-dkhza/service/badgeservice/incoming_webhook/badge?appid=<APPID>)](http://cloud.mongodb.com)
 ```
+### Current Hacktoberfest Entries
+
+| Project | Repo | Author
+| --- | --- |
+| hacktoberfest2018 | http://github.com/mongodb/hacktoberfest2018 | [![MrLynn](https://avatars1.githubusercontent.com/u/192552?s=400&u=cace293d90a9cc492538232caf9c6c74cdc19676&v=4)](http://twitter.com/merlynn) |
