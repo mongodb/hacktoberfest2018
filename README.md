@@ -2,7 +2,7 @@
 # Welcome to the MongoDB's Hacktoberfest Repository!
 
 ## What is Hacktoberfest?
-Hacktoberfest is a month-long celebration of open source software. Started originally by our friends at [Digital Ocean](http://digitalocean.com)
+Hacktoberfest is a month-long celebration of open source software. Started originally by our friends at [DigitalOcean](http://digitalocean.com)
 
 ## How is MongoDB Participating?
 This year, we're celebrating open source software by hosting a challenge for software developers. Innovation and development of freely available software is an essential part of our ecosystem. This is why we're incenting developers to create interesting projects leveraging [MongoDB Stitch](http://www.mongodb.com/cloud/stitch) and export the apps for storage on a [GitHub](http://github.com) repository.
