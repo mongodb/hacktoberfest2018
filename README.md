@@ -32,5 +32,6 @@ Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/
 | [Stitch Docs](https://docs.mongodb.com/stitch/) | MongoDB Stitch Documentation |
 | [MongoDB Docs](https://docs.mongodb.com) | MongoDB Documentation |
 | [Hacktoberfest](http://hacktoberfest.digitalocean.com) | Hacktoberfest on DigitalOcean |
+| [MongoDB Community Slack](https://launchpass.com/mongo-db) | MongoDB Community Slack |
 
 
