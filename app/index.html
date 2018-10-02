@@ -1,0 +1,50 @@
+<head>
+        <link type="text/css" rel="stylesheet" href="http://unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
+        <link type="text/css" rel="stylesheet" href="http://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+        <!-- Add this after vue.js -->
+</head>
+<h2>MongoDB Hackathon Entries</h2>
+<div id="app">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Entry</th>
+                <th>Repo</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="entry in entries">
+                <td scope="row">{{ entry.name }}</td>
+                <td>{{ entry.repo }}</td>
+                <td>{{ entry.author }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="https://s3.amazonaws.com/stitch-sdks/js/bundles/4.0.8/stitch.js"></script>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+<script src="http://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+<script>
+    const client = stitch.Stitch.initializeDefaultAppClient('hacktoberfest2018-yxogw');
+    const db = client.getServiceClient(stitch.RemoteMongoClient.factory, 'mongodb-atlas').db('hacktoberfest');
+    const app = new Vue({
+    el:'#app',
+    data() {
+        return {
+        entries:[]
+        }
+    },
+    created()  {
+        client.auth.loginWithCredential(new stitch.AnonymousCredential()).then(user => 
+        db.collection('entries').find({}, { limit: 100}).asArray()
+            ).then(docs => {
+                //console.log("Found docs", docs);
+                this.entries = docs;
+            }).catch(err => {
+                console.error(err)
+            });
+        }
+    })
+</script>
