@@ -2,9 +2,25 @@
         <link type="text/css" rel="stylesheet" href="http://unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
         <link type="text/css" rel="stylesheet" href="http://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
         <!-- Add this after vue.js -->
+        <style>
+            body {
+                padding-top: 5rem;
+                padding-left: 5rem;
+                padding-right: 5rem;
+            }
+            .starter-template {
+                padding: 3rem 1.5rem;
+                text-align: center;
+            }
+        </style>
 </head>
-<h2>MongoDB Hackathon Entries</h2>
 <div id="app">
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">MongoDB Hacktoberfest Entries</h1>
+                  <p class="lead">Welcome to Hacktoberfest!</p>
+                </div>
+              </div>
     <table class="table">
         <thead>
             <tr>
@@ -16,8 +32,8 @@
         <tbody>
             <tr v-for="entry in entries">
                 <td scope="row">{{ entry.name }}</td>
-                <td>{{ entry.repo }}</td>
-                <td>{{ entry.author }}</td>
+                <td> <a v-bind:href='entry.html_url'>{{ entry.html_url }}</a></td>
+                <td><img v-bind:alt='entry.owner.login' v-bind:src='entry.owner.avatar_url' width=100/></td>
             </tr>
         </tbody>
     </table>
@@ -31,12 +47,10 @@
     const db = client.getServiceClient(stitch.RemoteMongoClient.factory, 'mongodb-atlas').db('hacktoberfest');
     const app = new Vue({
     el:'#app',
-    data() {
-        return {
-        entries:[]
-        }
+    data: {
+        entries: []
     },
-    created()  {
+    created ()  {
         client.auth.loginWithCredential(new stitch.AnonymousCredential()).then(user => 
         db.collection('entries').find({}, { limit: 100}).asArray()
             ).then(docs => {
@@ -46,5 +60,14 @@
                 console.error(err)
             });
         }
-    })
+    
+        // fetch('http://api.github.com/search/repositories?q=topic:mongodb+topic:stitch+topic:hacktoberfest')
+        // fetch('http://api.github.com/search/repositories?q=topic:mongodb+topic:stitch+topic:hacktoberfest')
+        // .then(response => response.json())
+        // .then(json => {
+        //     console.log(json.items);
+        //     this.entries = json.items;
+        // })
+        //}
+})
 </script>
