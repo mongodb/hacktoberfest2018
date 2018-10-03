@@ -18,8 +18,8 @@ Simply create an app and leverage [MongoDB Stitch](http://www.mongodb.com/cloud/
 
 ## Current Hacktoberfest Entries
 > How do I get my project listed here?
-> - Simply fork this repo, edit the table below to include your project details, then issue a pull request for changes to the README.md.
-> - Please include Project name, author github user name (or link to pic), Repo Link, and a description of the project 
+> - Simply build a project with Stitch, export the app and create a repo. 
+> - Tag the repo with MongoDB, Stitch, and Hacktoberfest
 
 | Author | Repo | Description | Demo Link or other notes |
 | --- | --- | --- | --- |
