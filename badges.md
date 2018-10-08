@@ -23,7 +23,7 @@ To add a badge to your repository, obtain your Stitch App ID. You will find the 
 
 Once you have the App ID, you can craft your own badge using the following syntax:
 
-```![Powered by Stitch](http://badge.learnstitch.com/?appid=<YOUR APP ID>)(http://cloud.mongodb.com)```
+```[![Powered by Stitch](http://badge.learnstitch.com/?appid=<YOUR APP ID>)(http://cloud.mongodb.com)]```
 
 ## Additional Examples
 
